@@ -86,7 +86,7 @@
                 &kp W     &kp C     &kp L     &kp D     &kp P       &kp K     &kp U     &kp O     &kp Y     &kp QUOT
                 &kp R     &kp S     &kp N     &kp T     &kp B       &kp J     &kp A     &kp E     &kp I     &kp H
                           &kp F     &kp M     &kp G                           &kp X     &kp COMMA &kp DOT
-                                    &sl NAV &kp SPACE             &sk LSHFT &sl SYM
+                                    &sl NAV &kp SPACE             &sk ENTER &sl SYM
             >;
         };
         nav_layer {
