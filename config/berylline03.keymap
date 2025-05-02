@@ -50,8 +50,8 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <NAV SYM>;
-            then-layer = <NUM>;
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 
@@ -69,19 +69,19 @@
         v {
             key-positions = <1 2>;
             bindings = <&kp V>;
-            layers = <DEF>;
+            layers = <0>;
         };
 
         q {
             key-positions = <2 3>;
             bindings = <&kp Q>;
-            layers = <DEF>;
+            layers = <0>;
         };
 
         z {
             key-positions = <20 21>;
             bindings = <&kp Z>;
-            layers = <DEF>;
+            layers = <0>;
         };
 
         /* Brackets */
@@ -89,37 +89,37 @@
         lbkt {
             key-positions = <1 11>;
             bindings = <&kp LBKT>;
-            layers = <DEF SYM NUM>;
+            layers = <0 2 3>;
         };
 
         rbkt {
             key-positions = <8 18>;
             bindings = <&kp RBKT>;
-            layers = <DEF SYM NUM>;
+            layers = <0 2 3>;
         };
 
         lpar {
             key-positions = <2 12>;
             bindings = <&kp LPAR>;
-            layers = <DEF SYM NUM>;
+            layers = <0 2 3>;
         };
 
         rpar {
             key-positions = <7 17>;
             bindings = <&kp RPAR>;
-            layers = <DEF SYM NUM>;
+            layers = <0 2 3>;
         };
 
         lbrc {
             key-positions = <3 13>;
             bindings = <&kp LBRC>;
-            layers = <DEF SYM NUM>;
+            layers = <0 2 3>;
         };
 
         rbrc {
             key-positions = <6 16>;
             bindings = <&kp RBRC>;
-            layers = <DEF SYM NUM>;
+            layers = <0 2 3>;
         };
 
         /* Convenience */
@@ -137,7 +137,7 @@
         all {
             key-positions = <20 21>;
             bindings = <&kp ALL>;
-            layers = <NAV>;
+            layers = <1>;
         };
     };
 
@@ -146,10 +146,10 @@
 
         default_layer {
             bindings = <
-&kp W  &kp C  &kp L  &kp D    &kp P        &kp K      &kp U    &kp O      &kp Y    &kp SINGLE_QUOTE
-&kp R  &kp S  &kp N  &kp T    &kp B        &kp J      &kp A    &kp E      &kp I    &kp H
-       &kp F  &kp M  &kp G                            &kp X    &kp COMMA  &kp DOT
-                     &sl NAV  &kp SPACE    &kp ENTER  &sl SYM
+&kp W           &kp C           &kp L        &kp D             &kp P        &kp K      &kp U             &kp O        &kp Y           &kp SINGLE_QUOTE
+&mt LEFT_GUI R  &mt LEFT_ALT S  &mt LCTRL N  &mt LEFT_SHIFT T  &kp B        &kp J      &mt LEFT_SHIFT A  &mt LCTRL E  &mt LEFT_ALT I  &mt LEFT_GUI H
+                &kp F           &kp M        &kp G                                     &kp X             &kp COMMA    &kp DOT
+                                             &sl 1             &kp SPACE    &kp ENTER  &sl 2
             >;
         };
 
@@ -174,7 +174,7 @@
         num_layer {
             bindings = <
 &none   &none   &none   &none   &none     &none   &none   &none   &none   &none
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &soft_off
         &none   &none   &none                     &none   &none   &none
                         &trans  &trans    &trans  &trans
             >;
