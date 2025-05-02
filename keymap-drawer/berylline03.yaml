@@ -11,16 +11,16 @@ layers:
   - O
   - Y
   - ''''
-  - {t: R, h: LEFT GUI}
+  - {t: R, h: Gui}
   - {t: S, h: Alt}
   - {t: N, h: Ctrl}
-  - {t: T, h: LEFT SHIFT}
+  - {t: T, h: Shift}
   - B
   - J
-  - {t: A, h: LEFT SHIFT}
+  - {t: A, h: Shift}
   - {t: E, h: Ctrl}
   - {t: I, h: Alt}
-  - {t: H, h: LEFT GUI}
+  - {t: H, h: Gui}
   - F
   - M
   - G
@@ -136,40 +136,34 @@ combos:
   l: [default]
 - p: [1, 11]
   k: '{'
-  l: [default, NUM, FUNC]
-  draw_separate: true
+  l: [default]
 - p: [8, 18]
   k: '}'
-  l: [default, NUM, FUNC]
-  draw_separate: true
+  l: [default]
 - p: [2, 12]
   k: '['
-  l: [default, NUM, FUNC]
-  draw_separate: true
+  l: [default]
 - p: [7, 17]
   k: ']'
-  l: [default, NUM, FUNC]
-  draw_separate: true
+  l: [default]
 - p: [3, 13]
   k: (
-  l: [default, NUM, FUNC]
-  draw_separate: true
+  l: [default]
 - p: [6, 16]
   k: )
-  l: [default, NUM, FUNC]
-  draw_separate: true
+  l: [default]
 - p: [5, 6]
   k: ⌦
-  draw_separate: true
+  l: [default]
 - p: [5, 15]
   k: Esc
-  draw_separate: true
+  l: [default]
 - p: [6, 7]
   k: Insert
-  draw_separate: true
+  l: [default]
 - p: [7, 8]
-  k: BACKSPACE
-  draw_separate: true
+  k: ⌫
+  l: [default]
 - p: [19, 25]
-  k: PRINTSCREEN
-  draw_separate: true
+  k: Prnt Scrn
+  l: [default]
