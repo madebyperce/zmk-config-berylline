@@ -1,6 +1,8 @@
 parse_config:
   raw_binding_map:
-    '&soft_off': Off
+    '&soft_off': Soft Off
+    '&caps_word': Caps Word
+  
   zmk_combos:
     lbkt: {draw_separate: true}
     rbkt: {draw_separate: true}
