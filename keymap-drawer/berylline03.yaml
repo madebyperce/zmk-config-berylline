@@ -156,6 +156,3 @@ combos:
   k: ⌦
 - p: [5, 15]
   k: Esc
-- p: [20, 21]
-  k: Select All
-  l: [nav]
