@@ -11,16 +11,16 @@ layers:
   - O
   - Y
   - ''''
-  - R
-  - S
-  - N
-  - T
+  - {t: R, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: N, h: LCTRL}
+  - {t: T, h: LEFT SHIFT}
   - B
   - J
-  - A
-  - E
-  - I
-  - H
+  - {t: A, h: LEFT SHIFT}
+  - {t: E, h: LCTRL}
+  - {t: I, h: LEFT ALT}
+  - {t: H, h: LEFT GUI}
   - F
   - M
   - G
@@ -113,7 +113,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '0'
+  - '&soft_off'
   - ''
   - ''
   - ''
