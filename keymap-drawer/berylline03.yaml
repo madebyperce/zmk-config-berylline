@@ -10,7 +10,7 @@ layers:
   - U
   - O
   - Y
-  - SINGLE QUOTE
+  - ''''
   - {t: R, h: LEFT GUI}
   - {t: S, h: LEFT ALT}
   - {t: N, h: Ctrl}
@@ -25,8 +25,8 @@ layers:
   - M
   - G
   - X
-  - COMMA
-  - DOT
+  - ','
+  - .
   - {t: nav, h: sticky}
   - ␣
   - ENTER
@@ -37,23 +37,23 @@ layers:
   - F3
   - F4
   - F5
-  - Ctl+HOME
+  - Ctl+Home
   - Esc
   - UARW
   - ↹
-  - {t: HOME, s: HOME}
+  - {t: Home, s: Home}
   - Gui
   - Alt
   - Shift
   - Ctrl
-  - Ctl+Z
-  - Ctl+END
+  - Undo
+  - Ctl+End
   - LARW
   - ENTER
   - RARW
-  - {t: END, s: END}
-  - Ctl+X
-  - Ctl+C
+  - {t: End, s: End}
+  - Cut
+  - Copy
   - Ctl+V
   - ⌫
   - DARW
@@ -63,32 +63,32 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   sym:
-  - EXCL
-  - AT
-  - HASH
-  - DLLR
-  - PRCNT
-  - CARET
-  - AMPS
-  - SEMI
-  - COLON
-  - QMARK
-  - TILDE
-  - EQUAL
-  - MINUS
-  - FSLH
-  - GRAVE
-  - BSLH
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - ;
+  - ':'
+  - '?'
+  - '~'
+  - '='
+  - '-'
+  - /
+  - '`'
+  - \
   - Ctrl
   - Shift
   - Alt
   - Gui
-  - UNDER
-  - PLUS
-  - ASTRK
-  - PIPE
-  - LT
-  - GT
+  - _
+  - +
+  - '*'
+  - '|'
+  - <
+  - '>'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -135,27 +135,27 @@ combos:
   k: Z
   l: [default]
 - p: [1, 11]
-  k: LBKT
+  k: '['
   l: [default, sym, num]
 - p: [8, 18]
-  k: RBKT
+  k: ']'
   l: [default, sym, num]
 - p: [2, 12]
-  k: LPAR
+  k: (
   l: [default, sym, num]
 - p: [7, 17]
-  k: RPAR
+  k: )
   l: [default, sym, num]
 - p: [3, 13]
-  k: LBRC
+  k: '{'
   l: [default, sym, num]
 - p: [6, 16]
-  k: RBRC
+  k: '}'
   l: [default, sym, num]
 - p: [4, 14]
   k: ⌦
 - p: [5, 15]
   k: Esc
 - p: [20, 21]
-  k: Ctl+A
+  k: Select All
   l: [nav]
