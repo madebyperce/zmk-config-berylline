@@ -1,54 +1,17 @@
 parse_config:
   raw_binding_map:
-    '&sys_reset': Reset
-    '&bootloader': Boot
-    '&swapper': Win Next
-    '&caps_word': Caps Word
-    '&inv_qm': ¿
-    '&ind_bat': Show Batt
-    '&ind_con': Show Conn
-
-    '&out OUT_USB': Out USB
-    '&out OUT_BLE': Out BLE
-
-    '&bt BT_SEL 0': BT 1
-    '&bt BT_SEL 1': BT 2
-    '&bt BT_SEL 2': BT 3
-    '&bt BT_SEL 3': BT 4
-    '&bt BT_SEL 4': BT 5
-
-    '&mmv MOVE_UP': Mouse ↑
-    '&mmv MOVE_DOWN': Mouse ↓
-    '&mmv MOVE_LEFT': Mouse ←
-    '&mmv MOVE_RIGHT': Mouse →
-
-    '&msc SCRL_UP': Scroll ↑
-    '&msc SCRL_DOWN': Scroll ↓
-    '&msc SCRL_LEFT': Scroll ←
-    '&msc SCRL_RIGHT': Scroll →
-
-    '&mkp LCLK': Left Click
-    '&mkp RCLK': Right Click
-    '&mkp MCLK': Middle Click
-    '&mkp MB4': Back Click
-    '&mkp MB5': Forward Click
-
+    '&soft_off': Off
   zmk_combos:
     lbkt: {draw_separate: true}
-    combo_rbkt: {draw_separate: true}
-    combo_lpar: {draw_separate: true}
-    combo_rpar: {draw_separate: true}
-    combo_lbrc: {draw_separate: true}
-    combo_del: {draw_separate: true}
-    combo_esc: {draw_separate: true}
+    rbkt: {draw_separate: true}
+    lpar: {draw_separate: true}
+    rpar: {draw_separate: true}
+    lbrc: {draw_separate: true}
+    del: {draw_separate: true}
+    esc: {draw_separate: true}
 
   zmk_keycode_map:
     # custom mappings
-    C_VOL_UP: Vol Up
-    C_VOL_DN: Vol Down
-    C_AL_CALC: Calc
-    C_PP: Play Pause
-
     LCTRL: Ctrl
     RCTRL: Ctrl
     LALT: Alt
@@ -64,8 +27,6 @@ parse_config:
     TAB: ↹
     DEL: ⌦
 
-    PG_UP: Page ↑
-    PG_DN: Page ↓
     INS: Insert
     HOME: Home
     END: End
