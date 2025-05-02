@@ -2,8 +2,23 @@ draw_config:
   dark_mode: true
   n_columns: 2
 parse_config:
-  raw_binding_map: {LEFT_ALT: alt}
-   modifier_fn_map:
-    left_ctrl: Ctrl
-    left_shift: Shift
-    left_gui: Gui
+  zmk_keycode_map:
+    LCTRL: Ctrl
+    RCTRL: Ctrl
+    LALT: Alt
+    RALT: Alt
+    LGUI: Gui
+    RGUI: Gui
+    LSHFT: Shift
+    RSHFT: Shift
+    ESC: Esc
+    SPACE: ␣
+    BSPC: ⌫
+    RET: ⏎
+    TAB: ↹
+    DEL: ⌦
+    
+    UP: ↑
+    DOWN: ↓
+    LEFT: ←
+    RIGHT: →
