@@ -1,27 +1,29 @@
 parse_config:
-  raw_binding_map:
-    '&soft_off': Soft Off
-    '&caps_word': Caps Word
-  
+
   zmk_combos:
     lbkt: {draw_separate: true}
     rbkt: {draw_separate: true}
     lpar: {draw_separate: true}
     rpar: {draw_separate: true}
     lbrc: {draw_separate: true}
+    rbrc: {draw_separate: true}
     del: {draw_separate: true}
     esc: {draw_separate: true}
+    ins: {draw_separate: true}
+    bpsc: {draw_separate: true} 
+    pscn: {draw_separate: true}
 
+  raw_binding_map:
+    '&soft_off': Soft Off
+    '&caps_word': Caps Word
+  
   zmk_keycode_map:
     # custom mappings
     LCTRL: Ctrl
-    RCTRL: Ctrl
+    LEFT_ALT: Alt
     LALT: Alt
-    RALT: Alt
     LGUI: Gui
-    RGUI: Gui
     LSHFT: Shift
-    RSHFT: Shift
     ESC: Esc
     SPACE: ␣
     BSPC: ⌫
