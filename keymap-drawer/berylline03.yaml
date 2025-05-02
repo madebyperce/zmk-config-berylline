@@ -10,25 +10,25 @@ layers:
   - U
   - O
   - Y
-  - ''''
+  - SINGLE QUOTE
   - {t: R, h: LEFT GUI}
   - {t: S, h: LEFT ALT}
-  - {t: N, h: LCTRL}
+  - {t: N, h: Ctrl}
   - {t: T, h: LEFT SHIFT}
   - B
   - J
   - {t: A, h: LEFT SHIFT}
-  - {t: E, h: LCTRL}
+  - {t: E, h: Ctrl}
   - {t: I, h: LEFT ALT}
   - {t: H, h: LEFT GUI}
   - F
   - M
   - G
   - X
-  - ','
-  - .
+  - COMMA
+  - DOT
   - {t: nav, h: sticky}
-  - SPACE
+  - ␣
   - ENTER
   - {t: sym, h: sticky}
   nav:
@@ -38,14 +38,14 @@ layers:
   - F4
   - F5
   - Ctl+HOME
-  - ESC
+  - Esc
   - UARW
-  - TAB
+  - ↹
   - {t: HOME, s: HOME}
-  - LGUI
-  - LALT
-  - LSHFT
-  - LCTRL
+  - Gui
+  - Alt
+  - Shift
+  - Ctrl
   - Ctl+Z
   - Ctl+END
   - LARW
@@ -55,40 +55,40 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - BSPC
+  - ⌫
   - DARW
-  - DEL
+  - ⌦
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   sym:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - ;
-  - ':'
-  - '?'
-  - '~'
-  - '='
-  - '-'
-  - /
-  - '`'
-  - \
-  - LCTRL
-  - LSHFT
-  - LALT
-  - LGUI
-  - _
-  - +
-  - '*'
-  - '|'
-  - <
-  - '>'
+  - EXCL
+  - AT
+  - HASH
+  - DLLR
+  - PRCNT
+  - CARET
+  - AMPS
+  - SEMI
+  - COLON
+  - QMARK
+  - TILDE
+  - EQUAL
+  - MINUS
+  - FSLH
+  - GRAVE
+  - BSLH
+  - Ctrl
+  - Shift
+  - Alt
+  - Gui
+  - UNDER
+  - PLUS
+  - ASTRK
+  - PIPE
+  - LT
+  - GT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -135,27 +135,27 @@ combos:
   k: Z
   l: [default]
 - p: [1, 11]
-  k: '['
+  k: LBKT
   l: [default, sym, num]
 - p: [8, 18]
-  k: ']'
+  k: RBKT
   l: [default, sym, num]
 - p: [2, 12]
-  k: (
+  k: LPAR
   l: [default, sym, num]
 - p: [7, 17]
-  k: )
+  k: RPAR
   l: [default, sym, num]
 - p: [3, 13]
-  k: '{'
+  k: LBRC
   l: [default, sym, num]
 - p: [6, 16]
-  k: '}'
+  k: RBRC
   l: [default, sym, num]
 - p: [4, 14]
-  k: DEL
+  k: ⌦
 - p: [5, 15]
-  k: ESC
+  k: Esc
 - p: [20, 21]
   k: Ctl+A
   l: [nav]
