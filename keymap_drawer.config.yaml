@@ -1,2 +1,9 @@
 draw_config:
+  dark_mode: true
   n_columns: 2
+parse_config:
+  raw_binding_map: {LEFT_ALT: alt}
+   modifier_fn_map:
+    left_ctrl: Ctrl
+    left_shift: Shift
+    left_gui: Gui
