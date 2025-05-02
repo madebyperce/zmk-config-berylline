@@ -134,11 +134,6 @@
             bindings = <&kp ESC>;
         };
 
-        all {
-            key-positions = <20 21>;
-            bindings = <&kp ALL>;
-            layers = <1>;
-        };
     };
 
     keymap {
