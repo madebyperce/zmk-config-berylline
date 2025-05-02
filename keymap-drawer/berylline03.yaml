@@ -113,7 +113,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '&soft_off'
+  - Soft Off
   - ''
   - ''
   - ''
@@ -141,19 +141,25 @@ combos:
 - p: [8, 18]
   k: ']'
   l: [default, sym, num]
+  draw_separate: true
 - p: [2, 12]
   k: (
   l: [default, sym, num]
+  draw_separate: true
 - p: [7, 17]
   k: )
   l: [default, sym, num]
+  draw_separate: true
 - p: [3, 13]
   k: '{'
   l: [default, sym, num]
+  draw_separate: true
 - p: [6, 16]
   k: '}'
   l: [default, sym, num]
 - p: [4, 14]
   k: ⌦
+  draw_separate: true
 - p: [5, 15]
   k: Esc
+  draw_separate: true
