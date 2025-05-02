@@ -68,40 +68,40 @@
 
         /* Brackets */
 
-        lbkt {
+        lbrc {
             key-positions = <1 11>;
             bindings = <&kp LEFT_BRACE>;
-            layers = <0 2 3>;
-        };
-
-        rbkt {
-            key-positions = <8 18>;
-            bindings = <&kp RIGHT_BRACE>;
-            layers = <0 2 3>;
-        };
-
-        lpar {
-            key-positions = <2 12>;
-            bindings = <&kp LEFT_BRACKET>;
-            layers = <0 2 3>;
-        };
-
-        rpar {
-            key-positions = <7 17>;
-            bindings = <&kp RIGHT_BRACKET>;
-            layers = <0 2 3>;
-        };
-
-        lbrc {
-            key-positions = <3 13>;
-            bindings = <&kp LEFT_PARENTHESIS>;
-            layers = <0 2 3>;
+            layers = <0>;
         };
 
         rbrc {
+            key-positions = <8 18>;
+            bindings = <&kp RIGHT_BRACE>;
+            layers = <0>;
+        };
+
+        lbkt {
+            key-positions = <2 12>;
+            bindings = <&kp LEFT_BRACKET>;
+            layers = <0>;
+        };
+
+        rbkt {
+            key-positions = <7 17>;
+            bindings = <&kp RIGHT_BRACKET>;
+            layers = <0>;
+        };
+
+        lpar {
+            key-positions = <3 13>;
+            bindings = <&kp LEFT_PARENTHESIS>;
+            layers = <0>;
+        };
+
+        rpar {
             key-positions = <6 16>;
             bindings = <&kp RIGHT_PARENTHESIS>;
-            layers = <0 2 3>;
+            layers = <0>;
         };
 
         /* Convenience */
@@ -109,26 +109,31 @@
         del {
             key-positions = <5 6>;
             bindings = <&kp DEL>;
+            layers = <0>;
         };
 
         esc {
             key-positions = <5 15>;
             bindings = <&kp ESC>;
+            layers = <0>;
         };
 
         ins {
             bindings = <&kp INS>;
             key-positions = <6 7>;
+            layers = <0>;
         };
 
         bpsc {
             bindings = <&kp BACKSPACE>;
             key-positions = <7 8>;
+            layers = <0>;
         };
 
         pscn {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <19 25>;
+            layers = <0>;
         };
     };
 

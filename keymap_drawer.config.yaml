@@ -1,17 +1,17 @@
 parse_config:
 
-  zmk_combos:
-    lbkt: {draw_separate: true}
-    rbkt: {draw_separate: true}
-    lpar: {draw_separate: true}
-    rpar: {draw_separate: true}
-    lbrc: {draw_separate: true}
-    rbrc: {draw_separate: true}
-    del: {draw_separate: true}
-    esc: {draw_separate: true}
-    ins: {draw_separate: true}
-    bpsc: {draw_separate: true} 
-    pscn: {draw_separate: true}
+  # zmk_combos:
+  #   lbkt: {draw_separate: true}
+  #   rbkt: {draw_separate: true}
+  #   lpar: {draw_separate: true}
+  #   rpar: {draw_separate: true}
+  #   lbrc: {draw_separate: true}
+  #   rbrc: {draw_separate: true}
+  #   del: {draw_separate: true}
+  #   esc: {draw_separate: true}
+  #   ins: {draw_separate: true}
+  #   bpsc: {draw_separate: true} 
+  #   pscn: {draw_separate: true}
 
   raw_binding_map:
     '&soft_off': Soft Off
@@ -23,10 +23,13 @@ parse_config:
     LEFT_ALT: Alt
     LALT: Alt
     LGUI: Gui
+    LEFT_GUI: Gui
     LSHFT: Shift
+    LEFT_SHIFT: Shift
     ESC: Esc
     SPACE: ␣
     BSPC: ⌫
+    BACKSPACE: ⌫
     RET: ⏎
     TAB: ↹
     DEL: ⌦
@@ -35,7 +38,8 @@ parse_config:
     HOME: Home
     END: End
     CAPS: Caps Lock
-    PSCRN: Print Scrn
+    PSCRN: Prnt Scrn
+    PRINTSCREEN: Prnt Scrn
     PAUSE_BREAK: Pause Break
 
     UP: ↑
