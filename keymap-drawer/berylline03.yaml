@@ -12,14 +12,14 @@ layers:
   - Y
   - ''''
   - {t: R, h: LEFT GUI}
-  - {t: S, h: LEFT ALT}
+  - {t: S, h: Alt}
   - {t: N, h: Ctrl}
   - {t: T, h: LEFT SHIFT}
   - B
   - J
   - {t: A, h: LEFT SHIFT}
   - {t: E, h: Ctrl}
-  - {t: I, h: LEFT ALT}
+  - {t: I, h: Alt}
   - {t: H, h: LEFT GUI}
   - F
   - M
@@ -157,6 +157,7 @@ combos:
 - p: [6, 16]
   k: )
   l: [default, NUM, FUNC]
+  draw_separate: true
 - p: [5, 6]
   k: ⌦
   draw_separate: true
@@ -165,7 +166,10 @@ combos:
   draw_separate: true
 - p: [6, 7]
   k: Insert
+  draw_separate: true
 - p: [7, 8]
   k: BACKSPACE
+  draw_separate: true
 - p: [19, 25]
   k: PRINTSCREEN
+  draw_separate: true
