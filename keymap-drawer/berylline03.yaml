@@ -1,0 +1,161 @@
+layout: {zmk_keyboard: berylline03}
+layers:
+  default:
+  - W
+  - C
+  - L
+  - D
+  - P
+  - K
+  - U
+  - O
+  - Y
+  - ''''
+  - R
+  - S
+  - N
+  - T
+  - B
+  - J
+  - A
+  - E
+  - I
+  - H
+  - F
+  - M
+  - G
+  - X
+  - ','
+  - .
+  - {t: nav, h: sticky}
+  - SPACE
+  - ENTER
+  - {t: sym, h: sticky}
+  nav:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - Ctl+HOME
+  - ESC
+  - UARW
+  - TAB
+  - {t: HOME, s: HOME}
+  - LGUI
+  - LALT
+  - LSHFT
+  - LCTRL
+  - Ctl+Z
+  - Ctl+END
+  - LARW
+  - ENTER
+  - RARW
+  - {t: END, s: END}
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - BSPC
+  - DARW
+  - DEL
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  sym:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - ;
+  - ':'
+  - '?'
+  - '~'
+  - '='
+  - '-'
+  - /
+  - '`'
+  - \
+  - LCTRL
+  - LSHFT
+  - LALT
+  - LGUI
+  - _
+  - +
+  - '*'
+  - '|'
+  - <
+  - '>'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  num:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+combos:
+- p: [1, 2]
+  k: V
+  l: [default]
+- p: [2, 3]
+  k: Q
+  l: [default]
+- p: [20, 21]
+  k: Z
+  l: [default]
+- p: [1, 11]
+  k: '['
+  l: [default, sym, num]
+- p: [8, 18]
+  k: ']'
+  l: [default, sym, num]
+- p: [2, 12]
+  k: (
+  l: [default, sym, num]
+- p: [7, 17]
+  k: )
+  l: [default, sym, num]
+- p: [3, 13]
+  k: '{'
+  l: [default, sym, num]
+- p: [6, 16]
+  k: '}'
+  l: [default, sym, num]
+- p: [4, 14]
+  k: DEL
+- p: [5, 15]
+  k: ESC
+- p: [20, 21]
+  k: Ctl+A
+  l: [nav]
