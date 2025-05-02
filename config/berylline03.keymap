@@ -20,6 +20,13 @@
 
 /* Behavior Settings */
 
+&mt {
+    quick-tap-ms = <100>;
+    global-quick-tap;
+    flavor = "tap-preferred";
+    tapping-term-ms = <250>;
+};
+
 &sk {
     release-after-ms = <250>;
     quick-release;
@@ -173,7 +180,7 @@
 
         func_layer {
             bindings = <
-&none  &kp HOME  &kp UP_ARROW  &kp END    &none     &none   &none   &none  &none  &none
+&none  &kp HOME  &kp UP  &kp END    &none     &none   &none   &none  &none  &none
 &none  &kp LEFT  &kp DOWN      &kp RIGHT  &none     &none   &none   &none  &none  &soft_off
        &none     &none         &none                        &none   &none  &none
                                &trans     &trans    &trans  &trans

@@ -47,10 +47,6 @@ parse_config:
     LEFT: ←
     RIGHT: →
 
-    C_PP: ⏯
-    C_NEXT: ⏭️
-    C_PREV: ⏮️
-
     LC(TAB): Tab →
     LC(LS(TAB)): Tab ←
     LA(F4): Win Close
