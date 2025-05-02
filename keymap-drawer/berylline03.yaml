@@ -137,6 +137,7 @@ combos:
 - p: [1, 11]
   k: '['
   l: [default, sym, num]
+  draw_separate: true
 - p: [8, 18]
   k: ']'
   l: [default, sym, num]
